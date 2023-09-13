@@ -1,0 +1,27 @@
+.Portfolio .cards .img .layout{
+    width: 100%;
+    height: 100%;
+    background-color: #3cb198bf;
+    opacity: 0;
+    transition: all .555s;
+}
+.Portfolio .cards .img:hover .layout{
+    opacity: 1;
+    transition: all .5s;
+}
+.lightbox {
+    position: fixed;
+    top:12% !important;
+}
+.lightbox .lb-image{
+    border:none ;
+}
+.lb-number{
+    display: none !important;
+}
+.lb-data .lb-close{
+    position: absolute;
+    top: -8%;
+    left: 75%;
+    transform: translateX(-35%);
+}
