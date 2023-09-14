@@ -9,7 +9,7 @@ export default class Home extends Component {
             <Helmet>
                 <title>Home</title>
             </Helmet>
-            <div className="Home position-relative" style={{ marginTop:'95px', minHeight:'calc(100vh - 115px)',}}>
+            <div className="Home position-relative" style={{ marginTop:'95px', minHeight:'calc(100vh - 115px)',}} id='Home'>
                 <div className="container">
                     <div className="row">
                         <div className="col-12 " >
@@ -20,10 +20,10 @@ export default class Home extends Component {
                                 <div className="text">
                                     <h1 className='mt-4 fw-bold'>START FRAMEWORK</h1>
                                 </div>
-                                <div class="d-flex align-items-center justify-content-center mb-3 mt-3">
-                                    <div class="line me-3" style={{ backgroundColor: 'white', height: '4px', width: '80px', }}></div>
-                                    <i class="fa-solid fa-star"></i>
-                                    <div class="line ms-3" style={{ backgroundColor: 'white', height: '4px', width: '80px', }}></div>
+                                <div className="d-flex align-items-center justify-content-center mb-3 mt-3">
+                                    <div className="line me-3" style={{ backgroundColor: 'white', height: '4px', width: '80px', }}></div>
+                                    <i className="fa-solid fa-star"></i>
+                                    <div className="line ms-3" style={{ backgroundColor: 'white', height: '4px', width: '80px', }}></div>
                                 </div>
                                 <div className="paragraph mt-3">
                                     <p>Graphic Artist - Web Designer - Illustrator</p>
