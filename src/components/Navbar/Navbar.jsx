@@ -3,8 +3,6 @@ import { Link, NavLink } from 'react-router-dom'
 // import { Link } from 'react-router-dom'
 import './Navbar.css'
 export default class Navbar extends Component {
-
-
     render() {
         const myStyle = {
             width: 'fit-content',
