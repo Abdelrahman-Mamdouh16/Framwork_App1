@@ -1,4 +1,32 @@
-.Home{
+.Home {
     background-color: #2ebb9e;
     color: white !important;
+
+}
+
+.Home .content {
+    top: calc(100% - 88%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media screen and (max-width:1100px) {
+    .Home .content {
+        top: calc(100% - 95%);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+@media screen and (max-width:900px) {
+    .Home .content {
+        top: calc(100% - 93%);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+@media screen and (max-width:630px) {
+    .Home .content {
+        top: calc(100% - 99%);
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }

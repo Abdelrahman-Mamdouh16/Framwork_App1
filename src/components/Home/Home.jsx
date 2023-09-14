@@ -9,23 +9,31 @@ export default class Home extends Component {
             <Helmet>
                 <title>Home</title>
             </Helmet>
-                <div className="Home py-4" style={{marginTop:'105px',}}>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12 text-center" >
-                                <img src={avataaars} alt="" className='mb-2' style={{ width: '250px' }} />
-                                <h1 className='mt-4 fw-bold'>START FRAMEWORK</h1>
-                                <div class="d-flex align-items-center justify-content-center mb-3">
+            <div className="Home position-relative" style={{ marginTop:'95px', minHeight:'calc(100vh - 115px)',}}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 " >
+                            <div className="content text-center  position-absolute">
+                                <div className="img">
+                                    <img src={avataaars} alt="" className='' style={{ width: '250px' }} />
+                                </div>
+                                <div className="text">
+                                    <h1 className='mt-4 fw-bold'>START FRAMEWORK</h1>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center mb-3 mt-3">
                                     <div class="line me-3" style={{ backgroundColor: 'white', height: '4px', width: '80px', }}></div>
                                     <i class="fa-solid fa-star"></i>
                                     <div class="line ms-3" style={{ backgroundColor: 'white', height: '4px', width: '80px', }}></div>
                                 </div>
-                                <p>Graphic Artist - Web Designer - Illustrator</p>
+                                <div className="paragraph mt-3">
+                                    <p>Graphic Artist - Web Designer - Illustrator</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                </>
+            </div>
+        </>
         )
     }
 }
