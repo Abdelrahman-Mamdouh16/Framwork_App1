@@ -9,7 +9,7 @@ export default class Home extends Component {
             <Helmet>
                 <title>Home</title>
             </Helmet>
-            <div className="Home position-relative" style={{ marginTop:'95px', minHeight:'calc(100vh - 115px)',}} id='Home'>
+            <div className="Home position-relative" style={{ marginTop:'92px', minHeight:'calc(100vh - 115px)',}} id='Home'>
                 <div className="container">
                     <div className="row">
                         <div className="col-12 " >
