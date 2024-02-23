@@ -5,11 +5,20 @@ import { Outlet } from 'react-router-dom'
 
 export default class Layout extends Component {
   render() {
+    const app = {
+      'min-height': '100vh',
+      'display': 'flex',
+      'flex-direction': 'column',
+
+    }
     return (
       <>
-        <Navbar/>
-        <Outlet/>
-        <Footer/>
+        <div className="app" style={app}>
+          <Navbar />
+          <Outlet />
+          <Footer />
+        </div>
+
       </>
     )
   }
